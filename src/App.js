@@ -10,7 +10,7 @@ function App() {
 
   React.useEffect(() => {
     const url = `https://api-football-v1.p.rapidapi.com/v2/players/search/${inputText}`;
-    const accessHost = process.env.REACT_APP_FOOTBALL_HOST_KEY;
+    const accessHost = process.env.REACT_APP_HOST_KEY;
     const accessToken = process.env.REACT_APP_API_KEY;
     if (!inputText) {
       return;
