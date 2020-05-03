@@ -1,0 +1,14 @@
+.PlayerCard {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.PlayerInformation {
+  border: 3px solid black;
+  width: 300px;
+  background-color: rgb(230, 166, 47);
+  color: black;
+  font-weight: bold;
+  border-radius: 1%;
+}
