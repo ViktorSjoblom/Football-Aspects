@@ -27,10 +27,10 @@ function App() {
       .then((json) => {
         // console.log(json.api.players[0]);
         setSearchResult(json.api.players[1]);
-      })
-      .catch((err) => {
-        console.log(err);
       });
+    //  .catch((err) => {
+    //    console.log(err);
+    //  });
   }, [inputText]);
 
   return (
