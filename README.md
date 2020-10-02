@@ -4,3 +4,5 @@
 
 ## A react-project in school. 
 <p>https://football-aspects.netlify.app/</p>
+
+Search for a name, a random football player should appear.
